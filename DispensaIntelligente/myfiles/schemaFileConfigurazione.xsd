@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="OggettoFileConfigurazione">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="maxProdottiVisibiliSchermata" type="xs:integer"/>
+            <xs:element name="categorie">
+                <xs:complexType> 
+                    <xs:sequence> 
+                        <xs:element name="string" type="xs:string" maxOccurs="unbounded"/> 
+                    </xs:sequence> 
+                </xs:complexType> 
+            </xs:element>
+            <xs:element name="intervalliTempo">
+                <xs:complexType> 
+                    <xs:sequence> 
+                        <xs:element name="string" type="xs:string" maxOccurs="unbounded"/> 
+                    </xs:sequence> 
+                </xs:complexType> 
+            </xs:element>
+            <xs:element name="intervalli">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="intervallo1" type="xs:integer"/>
+                        <xs:element name="intervallo2" type="xs:integer"/>
+                        <xs:element name="intervallo3" type="xs:integer"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="infoServerLog">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="indirizzoIP" type="xs:string"/>
+                        <xs:element name="porta" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="infoDatabase">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="username" type="xs:string"/>
+                        <xs:element name="password" type="xs:string"/>
+                        <xs:element name="indirizzoIP" type="xs:string"/>
+                        <xs:element name="porta" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OggettoFileConfigurazione>
+    <maxProdottiVisibiliSchermata>8</maxProdottiVisibiliSchermata>
+    
+    <categorie>
+        <string>Pasta</string>
+        <string>Condimento</string>
+        <string>Carne</string>
+        <string>Pesce</string>
+        <string>Frutta</string>
+        <string>Verdura</string>
+        <string>Contorno</string>
+    </categorie>
+
+    <intervalliTempo>
+        <string>1 settimana</string>
+        <string>2 settimane</string>
+        <string>1 mese</string>
+        <string>6 mesi</string>
+        <string>1 anno</string>
+        <string>tutti</string>
+    </intervalliTempo>
+
+    <intervalli>
+        <intervallo1>3</intervallo1>
+        <intervallo2>7</intervallo2>
+        <intervallo3>365</intervallo3>
+    </intervalli>
+
+    <infoServerLog>
+        <indirizzoIP>localhost</indirizzoIP>
+        <porta>8081</porta>
+    </infoServerLog>
+
+    <infoDatabase>
+        <username>root</username>
+        <password></password>
+        <indirizzoIP>localhost</indirizzoIP>
+        <porta>3306</porta>
+    </infoDatabase>
+</OggettoFileConfigurazione>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="RigaDiLog">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nomeApplicazione" type="xs:string"/>
+                        <xs:element name="indirizzoIP" type="xs:string"/>
+                        <xs:element name="dataEora" type="xs:string"/>
+                        <xs:element name="evento" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+</xs:schema>

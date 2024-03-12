@@ -1,0 +1,33 @@
+Label{ /*modifica solo le scritte dell'areogramma*/
+    -fx-font-size: 13pt;
+}
+Button {
+    -fx-background-color: rgba(65,105,225, 0.8);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 10 15 10 15;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+PieChart{
+    -fx-background-color: rgba(65,105,225, 0.8);
+}
+
+/*****Stile Tabella*****/
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background .label{
+    -fx-background-color: rgba(65,105,225, 1);
+    -fx-font-weight:bold;
+    -fx-text-fill: white;
+    -fx-font-size:15pt;
+    -fx-padding: 5 3 5 3;
+}
+.table-cell{
+    -fx-font-size: 11pt;
+}
+.table-row-cell:selected {
+    -fx-text-background-color: black;
+    -fx-font-weight:bold;
+}
